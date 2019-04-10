@@ -1,0 +1,30 @@
+
+
+/*
+		@Header
+
+ */
+.header-top{
+	background: #26afdb;
+	background: -moz-linear-gradient(top, #26afdb 0%, #20a2cc 100%);
+	background: -webkit-linear-gradient(top, #26afdb 0%,#20a2cc 100%);
+	background: linear-gradient(to bottom, #26afdb 0%,#20a2cc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26afdb', endColorstr='#20a2cc',GradientType=0 );
+}
+
+.buttonmenu{
+	color:#ffffff;
+	font-size:30px
+}
+
+.bg-aviao{
+	background: url('../img/aviao.png');
+	position: relative; 
+}
+  
+  #parallaxBar{
+    height:750px;
+    background-color:#004c82;
+    background: url(../img/bgparallax.png) 50% 0 fixed;
+    	
+}
