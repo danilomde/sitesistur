@@ -20,6 +20,52 @@
 .bg-aviao{
 	background: url('../img/aviao.png');
 	position: relative; 
+	background-repeat: no-repeat;
+}
+ 
+.bg-pessoas{
+	background: url('../img/pessoas.png');
+	position: relative;
+	background-repeat: no-repeat;
+}
+.bg-logoTour{
+	background: url('../img/logo-intertur.png');
+	position: relative;
+	margin-left: 25%;
+	background-repeat: no-repeat;
+}
+
+.bg-nuvens{
+	background: url('../img/Nuvens.png')  top center;
+	background-position: 50% ;
+	position: relative;
+	max-width: 115%;
+	width: 112%;
+	background-repeat: no-repeat;
+}
+#a{
+	background: url("../img/QuerConhecerDisney.png") center;
+	background-repeat: no-repeat;
+	position: relative;
+	position: 10% 10%;
+
+}
+
+#video{
+	background-color: black;
+	padding: 40%;
+}
+#botaoBaixoVideo{
+	padding: 7%;
+}
+#testefluid{
+	
+}
+.botaoTeste{
+	position: 10% 10%;
+}
+.textoBaixoBotao{
+	color: orange;
 }
 
 footer{
