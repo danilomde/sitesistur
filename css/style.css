@@ -123,6 +123,28 @@
 	margin-left: 50px;
 
 }
+.fundoLaranja2{
+	background:url('../img//FundoLaranja2.png')  center;
+	background-position: cover;
+	background-repeat: no-repeat;
+
+}
+.requisito{
+	background:url('../img/Requisitos.png') top center;
+	background-repeat: no-repeat;
+	padding: 20%;
+	left: 50px; 
+	bottom: 70px;
+}
+.bolaRequisito{
+	background:url('../img/BolasRequisitos.png') center;
+	background-repeat: no-repeat;
+	padding: 10%;
+	bottom: 70px;
+}
+.veremos{
+	bottom: 50px;
+}
 footer{
 	background: #ffffff;
 	padding: 120px 0;
@@ -161,10 +183,12 @@ footer{
 	padding: 15px 20px;
 }
 
-
-#testefluid{
-	background-color: red;
+.testecontainer{
+	background-color: blue;
 }
-#testerow{
+.testefluid{
+	background-color: purple;
+}
+.testerow{
 	background-color: yellow;
 }
