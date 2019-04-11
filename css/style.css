@@ -91,6 +91,38 @@
 	background-repeat: no-repeat;
 	padding: 30%;
 }
+.confira{
+	background:url('../img/ConfiraDepoimentos.png') center top;
+	background-repeat: no-repeat;
+	padding: 18%;
+	bottom: 100px;
+}
+.bordaPontilhada{
+	border: 2px dashed orange;
+	margin-right: 2%;
+}
+.mickey{
+	background:url('../img/Mickey.png')  top ;
+	background-repeat: no-repeat;
+	padding: 28%;
+	margin-bottom: : 20%;
+}
+.imgCirculo{
+	margin-left: 5px;
+	margin-top: 7px;
+}
+.bolinhaEstrela{
+	font-size: 30px;
+	color: darkorange;
+	margin-right: 10px;
+
+}
+.estrelaBolinha{
+	font-size: 20px;
+	color: yellow;
+	margin-left: 50px;
+
+}
 footer{
 	background: #ffffff;
 	padding: 120px 0;
