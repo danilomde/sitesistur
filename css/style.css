@@ -59,6 +59,12 @@
 }
 .botaoTeste{
 	position: 10% 10%;
+	background-color: orange;
+	border-color:orange;
+}
+.botaoTeste:hover{
+	background-color: orange;
+	border-color: black; 
 }
 .textoBaixoBotao{
 	color: orange;
@@ -79,6 +85,11 @@
 	background-repeat: no-repeat;
 	padding: 25%;
 	bottom: 125px;
+}
+#ReceberVantagens{
+	background:url('../img/ReceberVantagens.png') center top;
+	background-repeat: no-repeat;
+	padding: 30%;
 }
 footer{
 	background: #ffffff;
