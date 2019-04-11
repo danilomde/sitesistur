@@ -36,3 +36,26 @@ footer{
 	color:#003067;
 	padding: 60px 0 0px;
 }
+
+.sobre{
+	background: url("../img/bg-escola.jpg") no-repeat center top;
+	background-size: cover;
+	padding: 100px;
+}
+
+.sobre h2{
+ color:#ffffff;
+ text-transform: uppercase;
+ font-weight: 100;
+
+}
+
+.color-white{
+	color:#ffffff;
+}
+
+.btn-orange{
+	background: #ee6623;
+	color:#ffffff !important;
+	padding: 15px 20px;
+}
