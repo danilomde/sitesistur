@@ -63,11 +63,10 @@
 .textoBaixoBotao{
 	color: orange;
 }
-#fundoLaranja{
+.fundoLaranja{
 	background:url('../img/FundoLaranja.png') no-repeat  ;
 	background-size: cover;
-	width: 110%;
-	position: 10% 10%;
+	background-size-x:120%;
 }
 #jaSonhou{
 	background:url('../img/JaSonhou.png') center top;
