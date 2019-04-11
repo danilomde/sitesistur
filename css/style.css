@@ -64,15 +64,22 @@
 	color: orange;
 }
 #fundoLaranja{
-	background:url('../img/FundoLaranja.png') no-repeat center top;
+	background:url('../img/FundoLaranja.png') no-repeat  ;
 	background-size: cover;
-	padding: 100px;
+	width: 110%;
+	position: 10% 10%;
 }
 #jaSonhou{
 	background:url('../img/JaSonhou.png') center top;
 	background-repeat: no-repeat;
 	padding: 26%;
 	position: 10% 20%;
+}
+#retangulos{
+	background:url('../img/Retangulos.png') center top;
+	background-repeat: no-repeat;
+	padding: 25%;
+	bottom: 125px;
 }
 footer{
 	background: #ffffff;
