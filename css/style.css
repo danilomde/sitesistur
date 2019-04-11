@@ -1,5 +1,4 @@
 
-
 /*
 		@Header
 
@@ -58,16 +57,23 @@
 #botaoBaixoVideo{
 	padding: 7%;
 }
-#testefluid{
-	
-}
 .botaoTeste{
 	position: 10% 10%;
 }
 .textoBaixoBotao{
 	color: orange;
 }
-
+#fundoLaranja{
+	background:url('../img/FundoLaranja.png') no-repeat center top;
+	background-size: cover;
+	padding: 100px;
+}
+#jaSonhou{
+	background:url('../img/JaSonhou.png') center top;
+	background-repeat: no-repeat;
+	padding: 26%;
+	position: 10% 20%;
+}
 footer{
 	background: #ffffff;
 	padding: 120px 0;
@@ -104,4 +110,12 @@ footer{
 	background: #ee6623;
 	color:#ffffff !important;
 	padding: 15px 20px;
+}
+
+
+#testefluid{
+	background-color: red;
+}
+#testerow{
+	background-color: yellow;
 }
