@@ -64,7 +64,10 @@
 }
 .botaoTeste:hover{
 	background-color: orange;
-	border-color: black; 
+	border-color: blackorange; 
+}
+.botaoTeste:active{
+	background-color: white; 
 }
 .textoBaixoBotao{
 	color: orange;
@@ -124,7 +127,7 @@
 
 }
 .fundoLaranja2{
-	background:url('../img//FundoLaranja2.png')  center;
+	background:url('../img//FundoLaranja3.png')  center;
 	background-position: cover;
 	background-repeat: no-repeat;
 
@@ -144,6 +147,11 @@
 }
 .veremos{
 	bottom: 50px;
+}
+.conquisteAgora{
+	background:url('../img/ConquisteAgora.png') center;
+	background-repeat: no-repeat;
+
 }
 footer{
 	background: #ffffff;
