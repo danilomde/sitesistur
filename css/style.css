@@ -87,6 +87,51 @@
 	padding: 25%;
 	bottom: 125px;
 }
+.retanguloNegativo{
+	margin: 3% 3% 3% 3%;
+	width: 100px;	
+	height: 125px;
+	 -webkit-transform: skew(-7deg);
+	-moz-transform:skew(-7deg);
+	-webkit-transform:skew(-7deg);
+	-o-transform:skew(-7deg);
+	-ms-transform:skew(-7deg);
+	transform:skew(-7deg);
+}
+.retanguloPositivo{
+	margin: 3% 3% 3% 3%;
+	-webkit-transform: skew(5deg);
+	-moz-transform:skew(5deg);
+	-webkit-transform:skew(5deg);
+	-o-transform:skew(5deg);
+	-ms-transform:skew(5deg);
+	transform:skew(5deg);
+	width: 100px;	
+	height: 125px;
+}
+.retanguloAzul{
+	background-color: #00BFFF;
+	color: #FFFF00;
+}
+.retanguloAmarelo{
+	background-color: yellow;
+	color: #CD0000;
+}
+.retanguloAzul h2{
+	margin-top: 5%;
+	
+}
+.retanguloAmarelo h2{
+	margin-top: 5%;
+}
+.esquerda{
+	margin-left: -2%;
+	margin-right: 5%;
+}
+.linha{
+	z-index: 100;
+	margin-bottom: -60%;;
+}
 .ReceberVantagens{
 	background-color: white;
 	margin-left: 5%;
