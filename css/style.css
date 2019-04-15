@@ -257,6 +257,33 @@ footer{
 	padding: 15px 20px;
 }
 
+.corpo_questao{
+	background-color: white;
+	padding: 2%;
+
+}
+.form-check{
+	margin-left: 4%;
+	margin-top: 1%;
+	font-size: 18px;
+}
+.testefluid{
+	background-color: purple;
+	padding: 12%;
+
+}
+.questao{;
+
+}
+
+.questao p{
+	margin-left: 2%;
+	font-size: 25px;
+}
+.botao_proximo{
+	margin-left: 85%;
+}
+
 .testecontainer{
 	background-color: blue;
 }
