@@ -7,14 +7,52 @@ $(function() {
 
 	$('#testecontainer2').hide();
 	$('#testecontainer3').hide();
+	$('#testecontainer4').hide();
+	$('#testecontainer5').hide();
+	$('#testecontainer6').hide();
+	$('#testecontainer7').hide();
+	$('#testecontainer8').hide();
+	$('#testecontainer9').hide();
+	$('#testecontainer10').hide();
+
 
 	$('#proximo1').click(function() {
 		$('#testecontainer1').hide();
 		$('#testecontainer2').show();
 	});
+
 	$('#proximo2').click(function() {
 		$('#testecontainer2').hide();
 		$('#testecontainer3').show();
+	});
+
+	$('#proximo3').click(function() {
+		$('#testecontainer3').hide();
+		$('#testecontainer4').show();
+	});
+	$('#proximo4').click(function() {
+		$('#testecontainer4').hide();
+		$('#testecontainer5').show();
+	});
+	$('#proximo5').click(function() {
+		$('#testecontainer5').hide();
+		$('#testecontainer6').show();
+	});
+	$('#proximo6').click(function() {
+		$('#testecontainer6').hide();
+		$('#testecontainer7').show();
+	});
+	$('#proximo7').click(function() {
+		$('#testecontainer7').hide();
+		$('#testecontainer8').show();
+	});
+	$('#proximo8').click(function() {
+		$('#testecontainer8').hide();
+		$('#testecontainer9').show();
+	});
+	$('#proximo9').click(function() {
+		$('#testecontainer9').hide();
+		$('#testecontainer10').show();
 	});
 
 });
