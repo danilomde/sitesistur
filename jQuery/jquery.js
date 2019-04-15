@@ -54,5 +54,8 @@ $(function() {
 		$('#testecontainer9').hide();
 		$('#testecontainer10').show();
 	});
+	$('#finalizar').click(function() {
+		$('#testecontainer10').hide();
+	});
 
 });
