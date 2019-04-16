@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- jQuery bibliotecas -->
 	<script type="text/javascript" src="jQuery/jquery-1.7.1.min.js"></script>
@@ -75,7 +75,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo1" value="Proximo" id="proximo1">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo1" value="Proximo" id="proximo1">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo1">Próximo</button>-->
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo2" value="Proximo" id="proximo2">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo2" value="Proximo" id="proximo2">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo2">Próximo</button>-->
 				</div>
 			</div>
@@ -183,7 +183,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo3" value="Proximo" id="proximo3">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo3" value="Proximo" id="proximo3">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo3">Próximo</button>-->
 				</div>
 			</div>
@@ -237,7 +237,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo4" value="Proximo" id="proximo4">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo4" value="Proximo" id="proximo4">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo4">Próximo</button>-->
 				</div>
 			</div>
@@ -291,7 +291,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo5" value="Proximo" id="proximo5">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo5" value="Proximo" id="proximo5">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo5">Próximo</button>-->
 				</div>
 			</div>
@@ -344,7 +344,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo6" value="Proximo" id="proximo6">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo6" value="Proximo" id="proximo6">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo6">Próximo</button>!-->
 				</div>
 			</div>
@@ -397,7 +397,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo7" value="Proximo" id="proximo7">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo7" value="Proximo" id="proximo7">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo7">Próximo</button>!-->
 				</div>
 			</div>
@@ -450,7 +450,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo8" value="Proximo" id="proximo8">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo8" value="Proximo" id="proximo8">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo8">Próximo</button>!-->
 				</div>
 			</div>
@@ -503,7 +503,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<input type="button" class="btn-lg btn-secondary botao_proximo" name="proximo9" value="Proximo" id="proximo9">
+					<input type="button" class="btn-lg btn-warning botao_proximo" name="proximo9" value="Proximo" id="proximo9">
 					<!--<button class="btn-lg btn-secondary botao_proximo" id="proximo9">Próximo</button>-->
 				</div>
 			</div>
@@ -556,7 +556,7 @@
 					</label>
 				</div>
 				<div class="row">
-					<button class="btn-lg btn-secondary botao_proximo" type="submit" id="finalizar">Finalizar</button>
+					<button class="btn-lg btn-warning botao_proximo" type="submit" id="finalizar">Finalizar</button>
 				</div>
 			</div>
 

@@ -56,16 +56,19 @@
 }
 #botaoBaixoVideo{
 	padding: 7%;
+	text-decoration: none;
 }
 .botaoTeste{
 	position: 10% 10%;
+	text-decoration: none;
 }
 .botaoTeste:hover{
 	background-color: orange;
 	border-color: blackorange; 
+	text-decoration: none;
 }
-.botaoTeste:active{
-	background-color: white; 
+.botaoTeste:a{
+	text-decoration: none;
 }
 .textoBaixoBotao{
 	color: orange;
@@ -258,8 +261,9 @@ footer{
 }
 
 .corpo_questao{
-	background-color: white;
-	padding: 2%;
+	background-color: #ffffff;
+	opacity:0.98;
+	padding: 3%;
 
 }
 .form-check{
@@ -268,27 +272,21 @@ footer{
 	font-size: 18px;
 }
 .testefluid{
-	background-color: purple;
-	padding: 12%;
-
+	background: url('../img/fundoProva.png') no-repeat center ;
+	background-size: cover;
+	padding: 10%;
 }
-.questao{;
-
-}
-
 .questao p{
 	margin-left: 2%;
 	font-size: 25px;
 }
 .botao_proximo{
+	margin-bottom: : 5%;
 	margin-left: 85%;
 }
 
 .testecontainer{
 	background-color: blue;
-}
-.testefluid{
-	background-color: purple;
 }
 .testerow{
 	background-color: yellow;
