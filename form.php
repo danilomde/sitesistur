@@ -25,7 +25,15 @@
 	<div class="container-fluid testefluid">
 		<form method="POST" action="resultado.php">
 
-			
+
+			<?php
+				date_default_timezone_set('America/Sao_Paulo');
+				session_start();
+				@$hora_inicio = date('H:i:s');
+				$_SESSION['hora_inicio'] = $hora_inicio;
+			?>
+
+
 			<div class="container corpo_questao rounded border" id="testecontainer1">
 				<br>
 				<div class="row questao">
