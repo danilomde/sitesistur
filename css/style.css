@@ -380,6 +380,7 @@ footer{
 		background:url('../img/FundoLaranja.png') no-repeat ;
 		height: auto;
 		background-size: 600%;
+		padding-bottom: 10%;
 	}
 	.jaSonhou{
 		background:url('../img/JaSonhou.png') center top;
@@ -480,7 +481,7 @@ footer{
 		background-repeat: no-repeat;
 		background-size: 130%;
 		padding: 21%;
-		margin-top: 14%;
+		margin-top: 2%;
 		margin-bottom: -11%;
 	}
 	.bordaPontilhada{
@@ -546,8 +547,8 @@ footer{
 		background:url('../img/ConquisteAgora.png') center;
 		background-repeat: no-repeat;
 		background-size: 120%;
-		margin-top: -35%;
-		margin-bottom: -40%;
+		margin-top: -25%;
+		margin-bottom: -20%;
 	}
 	.conheca h2{
 		font-size: 24px;
