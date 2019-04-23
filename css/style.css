@@ -10,7 +10,11 @@
 	background: linear-gradient(to bottom, #26afdb 0%,#20a2cc 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26afdb', endColorstr='#20a2cc',GradientType=0 );
 }
-
+.logo{
+	width: 40%; 
+	margin-top: 2%;
+	margin-left: 5%;
+}
 .buttonmenu{
 	color:#ffffff;
 	font-size:30px
@@ -26,31 +30,32 @@
 	background: url('../img/pessoas.png');
 	position: relative;
 	background-repeat: no-repeat;
+
+
 }
 .bg-logoTour{
-	background: url('../img/logo-intertur.png');
+	background: url('../img/logo-intertur.png') center bottom;
 	position: relative;
-	margin-left: 25%;
 	background-repeat: no-repeat;
+	
 }
-
 .bg-nuvens{
 	background: url('../img/Nuvens.png')  top center;
 	background-position: 50% ;
 	position: relative;
 	max-width: 115%;
-	width: 112%;
+	width: 110%;
 	background-repeat: no-repeat;
+	padding: 28%;
+	
 }
-#a{
+.a{
 	background: url("../img/QuerConhecerDisney.png") center;
 	background-repeat: no-repeat;
 	position: relative;
-	position: 10% 10%;
-
 }
 
-#video{
+.video{
 	background-color: black;
 	padding: 40%;
 }
@@ -78,7 +83,7 @@
 	background-size: cover;
 	background-size-x:120%;
 }
-#jaSonhou{
+.jaSonhou{
 	background:url('../img/JaSonhou.png') center top;
 	background-repeat: no-repeat;
 	padding: 26%;
@@ -135,9 +140,13 @@
 	z-index: 100;
 	margin-bottom: -60%;;
 }
+#botao{
+	margin-top: 5%;
+}
 .ReceberVantagens{
 	background-color: white;
-	margin-left: 5%;
+	margin-right: 2%;
+	margin-top: 10%;
 }
 .bolaAzul{
 	bottom: 130px;
@@ -158,7 +167,6 @@
 .listaMickey li{
 	list-style-image: url('../img/MickeyTopic.png');
 	margin-left:5%;
-
 }
 .parag{
 	font-size: 16px;
@@ -172,12 +180,12 @@
 .bordaPontilhada{
 	border: 2px dashed orange;
 	margin-right: 2%;
+	padding-bottom: 2%;
 }
 .mickey{
 	background:url('../img/Mickey.png')  top ;
 	background-repeat: no-repeat;
 	padding: 28%;
-	margin-bottom: : 20%;
 }
 .imgCirculo{
 	margin-left: 5px;
@@ -216,6 +224,8 @@
 }
 .veremos{
 	bottom: 50px;
+	color: white; 
+	font-size: 30px
 }
 .conquisteAgora{
 	background:url('../img/ConquisteAgora.png') center;
@@ -290,4 +300,281 @@ footer{
 }
 .testerow{
 	background-color: yellow;
+}
+
+@media (max-width: 768px){
+	.bg-aviao{
+		background: url('../img/aviao.png') center;
+		position: relative; 
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+	}
+ 
+	.bg-pessoas{
+		background: url('../img/pessoas.png');
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+
+	}
+	.bg-logoTour{
+		background: url('../img/logo-intertur.png') center bottom;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 50%;
+		margin-left: 25%;
+		padding:30%;
+	}
+	.bg-nuvens{
+		background: url('../img/Nuvens.png')  center ;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 100%;
+		z-index: -2;
+		
+	}
+	.logo{
+		width: 30%; 
+		margin-top: ;
+		margin-left:-10% ;
+	}
+	.buttonmenu{
+		color:#ffffff;
+		font-size:20px
+	}
+	.a{
+		background: url("../img/QuerConhecerDisney.png") center;
+		background-repeat: no-repeat;
+		position: relative;
+		background-size: 180%;
+		padding:41%;
+		margin-top: -10%;
+	}
+	.video{
+		background-color: black;
+		background-size: 100%;
+		padding: 40%;
+		width: 100%;
+		margin-top: -8%;
+	}
+	#botaoBaixoVideo{
+		width: 100%;
+		height: auto;
+		text-decoration: none;
+	}
+	.botaoTeste{
+		width: 100%;
+		height: 35px;
+		text-decoration: none;
+		font-size: 14px;
+	}
+	.textoBaixoBotao{
+		color: orange;
+		font-size: 15px;
+	}
+	.fundoLaranja{
+		background:url('../img/FundoLaranja.png') no-repeat ;
+		height: auto;
+		background-size: 600%;
+	}
+	.jaSonhou{
+		background:url('../img/JaSonhou.png') center top;
+		background-repeat: no-repeat;
+		background-size: 150%;
+		padding:40%;
+	}
+	.h1Responsive{
+		font-size: 25px;
+		color: white
+	}
+	.h2Responsive{
+		margin-top: 5%;
+		font-size: 20px;
+		color: white;
+	}
+	.retanguloNegativo{
+		width: 100%;	
+		height: 63px;
+		 -webkit-transform: skew(0deg);
+		-moz-transform:skew(0deg);
+		-webkit-transform:skew(0deg);
+		-o-transform:skew(0deg);
+		-ms-transform:skew(0deg);
+		transform:skew(0deg);
+	}
+	.retanguloPositivo{
+		-webkit-transform: skew(0deg);
+		-moz-transform:skew(0deg);
+		-webkit-transform:skew(0deg);
+		-o-transform:skew(0deg);
+		-ms-transform:skew(0deg);
+		transform:skew(0deg);
+		width: 100%;	
+		height: 63px;
+	}
+	.corpoRetangulo{
+		margin-top: 6%;
+		margin-bottom: 28%;
+		margin-left: -3%;
+	}
+	.linha{
+		display: none;
+	}	
+	.retanguloAzul{
+		background-color: #00BFFF;
+		color: #FFFF00;
+	}
+	.retanguloAmarelo{
+		background-color: yellow;
+		color: #CD0000;
+	}
+	.retanguloAzul h2{
+		margin-top: 3%;
+		font-size: 18px;
+		
+	}
+	.retanguloAmarelo h2{
+		margin-top: 3%;
+		font-size: 18px;
+	}
+	.ReceberVantagens{
+		background-color: white;
+		margin-bottom: 25%;	
+	}
+	.bolaAzul{
+		bottom: 100px;
+		width: 100%;
+		background-size: 100%;
+		margin-top: -10%;
+	}
+	.h2Retangulo{
+		font-size: 30px;
+		bottom: 125px;
+		color: #FF0000;
+	}
+	.lista{
+		font-size: 20px;
+		margin-left: -5%;
+		border: none;
+		margin-top: 15%; 
+	}
+	.parag{
+		font-size: 15px;
+	}
+	.listaMickey{
+		margin-top:-40%;
+	}
+	.listaMickey li{
+		list-style-image: url('../img/MickeyTopic.png');
+		margin-left:5%;
+	}
+	#botao{
+		margin-top: -12%;
+	}
+	.confira{
+		background:url('../img/ConfiraDepoimentos.png') center top;
+		background-repeat: no-repeat;
+		background-size: 130%;
+		padding: 21%;
+		margin-top: 14%;
+		margin-bottom: -11%;
+	}
+	.bordaPontilhada{
+		border: 2px dashed orange;
+		margin-bottom: 10%;
+		margin-right: 2%;
+		padding-bottom: 5%; 
+	}
+	.mickey{
+		background:url('../img/Mickey.png')  top ;
+		background-repeat: no-repeat;
+		background-size: 80%;
+	}
+	.imgCirculo{
+		width: 60%;
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.nomeConfira{
+		font-size: 25px;
+	}
+	.textoConfira{
+		font-size: 18px;
+	}
+	.bolinhaEstrela{
+		font-size: 30px;
+		color: darkorange;
+		margin-right: 10px;
+		margin-bottom: 5%;
+	}
+	.estrelaBolinha{
+		font-size: 20px;
+		color: yellow;
+		margin-left: 50px;
+
+	}
+	.fundoLaranja2{
+		background:url('../img//FundoLaranja3.png')  center;
+		background-position: cover;
+		background-repeat: no-repeat;
+	}
+	.requisito{
+		background:url('../img/Requisitos.png') top center;
+		background-repeat: no-repeat;
+		background-size: 150%;
+		padding: 40%;
+		margin-left: -15%;
+		margin-top: 13%;
+	}
+	.bolaRequisito{
+		background:url('../img/BolasRequisitos.png') center;
+		background-repeat: no-repeat;
+		background-size: 128%;
+		padding: 11%;
+	}
+	.veremos{
+		bottom: 20px;
+	}
+	.veremos h1{
+		font-size: 20px;
+	}
+	.conquisteAgora{
+		background:url('../img/ConquisteAgora.png') center;
+		background-repeat: no-repeat;
+		background-size: 120%;
+		margin-top: -35%;
+		margin-bottom: -40%;
+	}
+	.conheca h2{
+		font-size: 24px;
+		margin-left: 10%;
+	}
+	.botaoTeste2{
+		width: 175%;
+	    height: 40px;
+	    text-decoration: none;
+	    font-size: 14px;
+	    margin-left:-35%;
+	}
+	.imgConheca{
+		width: 150%;
+		margin-left: -25%;
+	}
+	.conhecaTexto{
+		padding:10%;
+		font-size: 16px;
+	}
+	.conheca{
+		margin-left: -4%;
+	}
+	.logoFooter{
+		width: 100%;
+	}
+	.contFooter{
+		margin-top: -5%;
+	}
 }
