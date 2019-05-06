@@ -282,8 +282,11 @@
 .customRadio input[type="radio"]:checked + label:after{
 	opacity: 1;
 }
-
-
+.textError{
+	color: red;
+	text-shadow:0px 0.5px #990000;
+	margin-right: -10%;
+}
 
 
 
@@ -416,8 +419,8 @@ footer{
 	}
 	.video{
 		background-color: black;
-		width: 460px;
-		height:250px;
+		width: 290px;
+		height:200px;
 	}
 	#botaoBaixoVideo{
 		width: 100%;
