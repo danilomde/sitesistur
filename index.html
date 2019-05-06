@@ -9,28 +9,35 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <script type="text/javascript" src="jQuery/jquery-3.4.1.min.js"></script>
     <script src="jQuery/jquery.js"></script>
     <script src="js/script.js"></script>
+    
+
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 
-
+    <link rel="icon" href="img/mickey-icon.png" type="image/x-icon" />
 
 
     <link rel="stylesheet" href="css/animate.css" >
 	<link rel="stylesheet" href="css/style.css" >
 
     <title>JUMPER! - Intertur</title>
+
   </head>
+
+
+
   <body>
-    
-    
     <header class="container-fluid header-top">   
    		<div class="container bg-aviao"  data-speed="6" data-type="background">		
             <nav class="row navbar"> 
 				<div class="col text-left"> 
-					<img src="img/logo-jumper.png" alt="LOGO JUMPER" class="animated bounce logo">
+					<a href="https://jumpercursos.com.br" target="_blank">
+						<img src="img/logo-jumper.png" alt="LOGO JUMPER" class="animated bounce logo">
+					</a>
 				</div>
 
 				<div class="col text-right align-middle"> 
@@ -77,8 +84,7 @@
 						        	</button>
 						     	</div>
 						     	<div class="modal-body">
-						     		<form class="customRadio">
-
+						     		<form class="customRadio" id="formTeste" name="formTeste" method="post">
 						     			<div class="row pergunta1">
 						     				<div class="col-md-12">
 						     					<p class="float-left tituloPergunta">1. Você tem passaporte? </p>
@@ -97,7 +103,7 @@
 
 						     			<div class="row pergunta2">
 						     				<div class="col-md-12">
-						     					<p class="float-left tituloPergunta">2. Ja realizou alguma viagem profissional? </p>
+						     					<p class="float-left tituloPergunta">2. Ja realizou alguma viagem internacional? </p>
 						     				</div>
 						     			</div>
 						     			<div class="row float-left pergunta2">
@@ -125,12 +131,50 @@
 								     			<label for="op6" class="textoRadio">Não</label>
 								     		</div>
 						     			</div>
+						     			<div class="row pergunta4">
+						     				<div class="col-md-12">
+						     					<p class="float-left tituloPergunta">Último passo para participar do Intertour: </p>
+						     				</div>
+						     			</div>
+						     			<div class="row float-left pergunta4">
+						     				<div class="col-md-12">
+						     					<table>
+						     						<tr>
+						     							<td>
+						     								<label for="nome">
+									     						Qual é seu nome: 
+									     					</label>
+						     							</td>
+						     							<td>
+						     								<input type="text" name="nome" id="nome">
+						     							</td>
+						     							<td>
+						     								<span id="erro_nome"></span>
+						     							</td>
+						     						</tr>
+						     						<tr>
+						     							<td>
+						     								<label for="celular">
+									     						Digite seu celular: 
+									     					</label>
+						     							</td>
+						     							<td>
+						     								<input type="text" name="celular" id="celular">
+						     							</td>
+						     							<td>
+						     								<span id="erro_celular"></span>
+						     							</td>
+						     						</tr>
+						     					</table>
+								     		</div>
+						     			</div>
 						     		</form>
 						     	</div>
 						     	<div class="modal-footer">
 						     		<button id="proximo1" class="pergunta1 btn btn-primary">Próxima pergunta</button>
 						     		<button id="proximo2" class="pergunta2 btn btn-primary">Próxima pergunta</button>
-						     		<a href="https://api.whatsapp.com/send?phone=5541999852493&text=Olá! Passei nos requisitos para participar do programa Intertour." onclick="teste()"><button id="finalizar" class="pergunta3 btn btn-primary">Finalizar Teste</button></a>
+						     		<button id="proximo3" class="pergunta3 btn btn-primary">Próxima pergunta</button>
+						     		<!-- <a href="https://api.whatsapp.com/send?phone=5541999852493&text=Olá! Passei nos requisitos para participar do programa Intertour." onclick="teste()"> --><button id="finalizar" onclick="return validar()" class="pergunta4 btn btn-primary">Finalizar Teste</button><!-- </a> -->
 						     	</div>
 						    </div>
 						  </div>
